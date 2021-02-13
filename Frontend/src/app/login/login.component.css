@@ -1,0 +1,33 @@
+.box input {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid rgb(34, 44, 51);
+    transition: 0.25s;
+}
+
+button {
+    margin-left: 185px;
+}
+
+button:hover,
+button:active {
+    font-size: 18px;
+    transition: .4s;
+}
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+}
+
+.signupForm {
+    display: none;
+}
+
+.loginForm {
+    display: block;
+}

@@ -1,0 +1,102 @@
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/admin-home">NEWSPRISM</a>
+        
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/admin-dashboard/admin-home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-dashboard/admin-category">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-dashboard/admin-news">Latest News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-dashboard/admin-magazine">Magazine </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-dashboard/admin-advertise">Advertise</a>
+                </li>
+            </ul>
+
+           
+    <nav>
+        <ul class="navbar-nav m-auto">
+          <li><button [routerLink]="['/home']">Logout</button></li>    
+        </ul>
+    </nav>
+      
+        </div>
+    </div>
+</nav>
+<section class="jumbotron text-center">
+    <h4 class="jumbotron-heading"> Newsprism Dashboard</h4>
+        <router-outlet></router-outlet>
+    <div class="container">
+        
+     </div>
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+</section>
+
+
+
+<!-- Footer -->
+<footer class="text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3">
+                <h5>About</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <p class="mb-0">
+                    The Newsprism offers authoritative insight and opinion on international news, politics, business, finance, science and technology etc. 
+                </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                <h5>Informations</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Business</a></li>
+                    <li><a href="">Entertainment</a></li>
+                    <li><a href="">Health</a></li>
+                    <li><a href="">Science</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <h5>Others links</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Gmail</a></li>
+                    <li><a href="">Linkedin</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h5>Contact</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-home mr-2"></i> Newsprism</li>
+                    <li><i class="fa fa-envelope mr-2"></i> contact.newsprism@gmail.com</li>
+                    <li><i class="fa fa-phone mr-2"></i> +91 9251304304</li>
+                    <li><i class="fa fa-print mr-2"></i> +91 9251304304</li>
+                </ul>
+            </div>
+            <div class="col-12 copyright mt-3">
+                <p class="float-left">
+                    <a routerLink="/admin-home">Back to top</a>
+                </p>
+                <p class="text-right text-muted">Developed by <i class="fa fa-heart"></i> <a href="https://t-php.fr/43-theme-ecommerce-bootstrap-4.html"><i>Naresh Mali</i></a></p>
+            </div>
+        </div>
+    </div>
+</footer>
